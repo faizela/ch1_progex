@@ -84,23 +84,4 @@
 
 // Challenge 4 
 
-function askBillamount () {
-    let billAmountstr = prompt('What is the bill amount?')
-    return billAmountstr
-}
-
-function askTiprate () {
-    let tipRatestr = prompt('What is the tip rate?')
-    return tipRatestr
-}
-
-
-
-
-function checkBillamount (askBillamount) {
-while(isNaN(Number(askBillamount())) || Number(askBillamount()) < 0){
-    billAmountstr = prompt('Enter a positive number for the bill amount')
-}
-}
-
-checkBillamount()
+// return to it after completing ch5
