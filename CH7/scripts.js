@@ -76,6 +76,21 @@ Position: 'Web Developer', Seperation_date :'2015-12-18'},
  
 ]
 
+employees.sort((a, b) => {
+  let fa = a.last_name.toLowerCase(),
+      fb = b.last_name.toLowerCase();
+
+  if (fa < fb) {
+      return -1;
+  }
+  if (fa > fb) {
+      return 1;
+  }
+  return 0;
+});
+
+console.log(employees)
+
 
 
 
